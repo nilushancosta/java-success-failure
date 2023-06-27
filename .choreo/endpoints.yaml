@@ -1,0 +1,9 @@
+
+version: 0.1
+# +required List of endpoints to create
+endpoints:
+- name: successfailure
+  port: 9090
+  type: REST
+  networkVisibility: Public
+  context: /srvc
